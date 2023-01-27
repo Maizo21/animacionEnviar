@@ -6,9 +6,9 @@ let msg = document.querySelector(".msg");
 let point = document.querySelector(".point");
 
 function animation() {
+  plane.classList.add("move-plane");
   plane.style.animationName = "movePlane";
   point.style.animationName = "movePlane";
-  plane.classList.add("move-plane");
   button.style.animationName = "circleForm";
   button.classList.add("send");
   setTimeout(function () {
@@ -23,7 +23,7 @@ function animation() {
     plane.classList.add("check");
     button.classList.add("check");
     msg.classList.add("check");
-  }, 500);
+  }, 600);
 
   button.removeEventListener("click", animation);
 }

@@ -132,7 +132,7 @@ button img.move-plane {
     right: 90px;
     top: -30px;
     transform: rotate(-180deg);
-    opacity: 1;
+    opacity: 0.8;
   }
 
   75% {
@@ -140,7 +140,7 @@ button img.move-plane {
     transform: rotate(-360deg);
     right: 100px;
     top: 50px;
-    opacity: 0.8;
+    opacity: 0.2;
   }
 
   100% {
@@ -203,8 +203,7 @@ button img.check {
   height: 40px;
 }
 
-button img.check:hover,
-button.send:hover img {
+button.send.check:hover img {
   filter: invert(0);
 }
 
