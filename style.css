@@ -132,7 +132,7 @@ button img.move-plane {
     right: 90px;
     top: -30px;
     transform: rotate(-180deg);
-    opacity: 0.8;
+    opacity: 0.2;
   }
 
   75% {
@@ -140,7 +140,7 @@ button img.move-plane {
     transform: rotate(-360deg);
     right: 100px;
     top: 50px;
-    opacity: 0.2;
+    opacity: 0.1;
   }
 
   100% {
