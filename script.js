@@ -19,7 +19,7 @@ function animation() {
   }, 500);
 
   setTimeout(function () {
-    plane.src = "/images/check.svg";
+    plane.src = "./images/check.svg";
     plane.classList.add("check");
     button.classList.add("check");
     msg.classList.add("check");
